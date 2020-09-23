@@ -1,0 +1,1 @@
+jruby -Xcompile.invokedynamic=true --bytecode test.rb 2>jruby.log

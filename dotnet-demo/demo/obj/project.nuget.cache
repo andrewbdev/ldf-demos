@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zzMS3A0W24piftr08MbgISANQ9G75NL/rPrJpEp8jVDwyL6stUbVfQ2ounZSbKn++/wx8tQZ9uA5vWREG1ynAg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\andrew.bennett\\My Documents\\LDF_2020\\ldf-demos\\Demos\\DotNet\\DotNet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andrew.bennett\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\1.0.0-alpha-29316-02\\microsoft.dotnet.ilcompiler.1.0.0-alpha-29316-02.nupkg.sha512"
+  ],
+  "logs": []
+}

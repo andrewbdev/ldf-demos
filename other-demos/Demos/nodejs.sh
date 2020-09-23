@@ -1,0 +1,1 @@
+node --print-bytecode-filter=output --print-bytecode --print-code test.js > nodejs.log

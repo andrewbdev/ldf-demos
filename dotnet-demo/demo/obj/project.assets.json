@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.DotNet.ILCompiler/1.0.0-alpha-29316-02": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard/_._": {}
+        },
+        "build": {
+          "build/Microsoft.DotNet.ILCompiler.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.DotNet.ILCompiler/1.0.0-alpha-29316-02": {
+      "sha512": "VV9TiMcIWsoCm7i/cPSZsUTDztdfWrzr91f77Ky+PS4nGqLM8jUsvmnbmIdmp5M18jyz79F9p8ZKtB/MBIt3gA==",
+      "type": "package",
+      "path": "microsoft.dotnet.ilcompiler/1.0.0-alpha-29316-02",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/BuildFrameworkNativeObjects.proj",
+        "build/BuildIntegration.proj",
+        "build/CoreRTNatVis.natvis",
+        "build/Microsoft.DotNet.ILCompiler.targets",
+        "build/Microsoft.NETCore.Native.Publish.targets",
+        "build/Microsoft.NETCore.Native.Unix.props",
+        "build/Microsoft.NETCore.Native.Windows.props",
+        "build/Microsoft.NETCore.Native.targets",
+        "build/findvcvarsall.bat",
+        "microsoft.dotnet.ilcompiler.1.0.0-alpha-29316-02.nupkg.sha512",
+        "microsoft.dotnet.ilcompiler.nuspec",
+        "ref/netstandard/_._",
+        "runtime.json",
+        "tools/netstandard/ILCompiler.Build.Tasks.dll",
+        "tools/netstandard/ILCompiler.Build.Tasks.pdb",
+        "tools/netstandard/System.Collections.Immutable.dll",
+        "tools/netstandard/System.Reflection.Metadata.dll",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Microsoft.DotNet.ILCompiler >= 1.0.0-alpha-*"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\andrew.bennett\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\andrew.bennett\\My Documents\\LDF_2020\\ldf-demos\\Demos\\DotNet\\DotNet.csproj",
+      "projectName": "DotNet",
+      "projectPath": "C:\\Users\\andrew.bennett\\My Documents\\LDF_2020\\ldf-demos\\Demos\\DotNet\\DotNet.csproj",
+      "packagesPath": "C:\\Users\\andrew.bennett\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andrew.bennett\\My Documents\\LDF_2020\\ldf-demos\\Demos\\DotNet\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\andrew.bennett\\My Documents\\LDF_2020\\ldf-demos\\Demos\\DotNet\\NuGet.Config",
+        "C:\\Users\\andrew.bennett\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Microsoft.DotNet.ILCompiler": {
+            "target": "Package",
+            "version": "[1.0.0-alpha-*, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
