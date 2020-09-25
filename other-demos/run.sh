@@ -1,3 +1,3 @@
 #!/bin/bash
-docker image build -t part1-java-demo .
-winpty docker run -it part1-java-demo
+docker image build -t ldf-other-demo .
+winpty docker run -it ldf-other-demo 

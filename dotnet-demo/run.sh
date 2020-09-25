@@ -1,3 +1,3 @@
 #!/bin/bash
-docker image build -t dotnet-jit-demo .
-winpty docker run -it dotnet-jit-demo
+docker image build -t ldf-dotnet-demo .
+winpty docker run -it ldf-dotnet-demo
