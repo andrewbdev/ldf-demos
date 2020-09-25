@@ -1,1 +1,0 @@
- dotnet ildasm -i Program::Main obj/Debug/netcoreapp3.1/DotNet.dll
